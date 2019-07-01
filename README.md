@@ -174,6 +174,7 @@ Problems featuring Subsets pattern:
 
 - Subsets With Duplicates (easy)
 - String Permutations by changing case (medium)
+
 # 11)Modified binary search
 Whenever you are given a sorted array, linked list, or matrix, and are asked to find a certain element, the best algorithm you can use is the Binary Search. This pattern describes an efficient way to handle all problems involving Binary Search.
 
@@ -194,6 +195,24 @@ Problems featuring the Modified Binary Search pattern:
 - Search in a Sorted Infinite Array (medium)
 
 # 12)Top K elements
+Any problem that asks us to find the top/smallest/frequent ‘K’ elements among a given set falls under this pattern.
+
+The best data structure to keep track of ‘K’ elements is Heap. This pattern will make use of the Heap to solve multiple problems dealing with ‘K’ elements at a time from a set of given elements. The pattern looks like this:
+
+- Insert ‘K’ elements into the min-heap or max-heap based on the problem.
+- Iterate through the remaining numbers and if you find one that is larger than what you have in the heap, then remove that number and insert the larger one.
+
+There is no need for a sorting algorithm because the heap will keep track of the elements for you.
+
+How to identify the Top ‘K’ Elements pattern:
+
+- If you’re asked to find the top/smallest/frequent ‘K’ elements of a given set
+- If you’re asked to sort an array to find an exact element
+
+Problems featuring Top ‘K’ Elements pattern:
+
+- Top ‘K’ Numbers (easy)
+- Top ‘K’ Frequent Numbers (medium)
 
 # 13)K-way merge
 
