@@ -153,7 +153,27 @@ Problems featuring
 - Find the Median of a Number Stream (medium)
 
 # 10)Subsets
+A huge number of coding interview problems involve dealing with Permutations and Combinations of a given set of elements. The pattern Subsets describes an efficient Breadth First Search (BFS) approach to handle all these problems.
 
+The pattern looks like this:
+
+Given a set of [1, 5, 3]
+
+- Start with an empty set: [[]]
+- Add the first number (1) to all the existing subsets to create new subsets: [[], [1]];
+- Add the second number (5) to all the existing subsets: [[], [1], [5], [1,5]];
+- Add the third number (3) to all the existing subsets: [[], [1], [5], [1,5], [3], [1,3], [5,3], [1,5,3]].
+- Here is a visual representation of the Subsets pattern:
+
+
+How to identify the Subsets pattern:
+
+- Problems where you need to find the combinations or permutations of a given set
+
+Problems featuring Subsets pattern:
+
+- Subsets With Duplicates (easy)
+- String Permutations by changing case (medium)
 # 11)Modified binary search
 
 # 12)Top K elements
