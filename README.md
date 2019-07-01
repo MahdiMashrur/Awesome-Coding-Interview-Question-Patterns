@@ -1,5 +1,5 @@
-# Awesome-Coding-Interview-Design-Patterns
-# This repo contains the most common design-patterns of a coding interview
+# Awesome-Coding-Interview-Question-Patterns
+# This repo contains the most common question-patterns of a coding interview
 
 
 The following patterns assume that you’ve brushed up on Data Structures.
