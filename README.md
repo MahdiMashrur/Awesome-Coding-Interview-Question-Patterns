@@ -279,3 +279,12 @@ Problems featuring the Topological Sort pattern:
 
 - Task scheduling (medium)
 - Minimum height of a tree (hard)
+
+Resources:
+1) https://github.com/jwasham/coding-interview-university
+
+2) https://www.educative.io/collection/5668639101419520/5671464854355968
+
+3) https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/
+
+
